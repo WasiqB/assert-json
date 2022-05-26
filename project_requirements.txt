@@ -1,0 +1,8 @@
+We need a JSON comparison library with below capabilities.
+
+1. It should work for JSON objects as well as JSON arrays. It should take either of them in string format.
+2. It should support comparison modes like strict, lenient, etc. to consider extensibility and ordering to be accounted for comparison.
+3. It should support soft assertions (can be integrated with TestNG's SoftAssert) as well as hard asserts.
+4. There should be a provision to ignore certain keys. JSON path should be supported for specifying the keys to be ignored. JSON paths for objects as well as arrays should be supported.
+5. In case of any differences, it should show all the discrepant keys/attributes.
+6. Optional: It should work efficiently for large JSON bodies/strings.
